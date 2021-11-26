@@ -18,7 +18,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_SET);
 	}
 
-	if(xxx%6 == 0) {
+	if(xxx%5 == 1) {
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_RESET);
 	}
 
